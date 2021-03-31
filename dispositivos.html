@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en-MX">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viwerport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../css/estilos.css" >
+        <script src="../js/script.js"></script>
+        <title>Dispositivos</title>
+    </head>
+    <body background="../Imagenes/fondo_disp.jpg">
+        <center>
+
+        <div class="agrupar">
+            <div class="cotainerform"> 
+            <section>       
+                <form name="formDispositivos" id="formDispositivos" method="POST" action="#">
+                    
+                    <div class="fila">
+                        <div class="collabel">
+                            <lable>Clave</lable>
+                        </div>
+                        <div class="colinput">
+                            <input type="number" id="cveDisp" name ="cveDisp" placeholder=" ABCDEF123" required 
+                            onchange="validarclave()">
+                        </div>
+                        <div class="colParrafo">
+                            <p id="cl"></p>
+                        </div>
+                    </div>  
+                    
+                    
+                    <div class="fila">
+                        <div class="collabel">
+                           <lable>Categor&iacute;a </lable>
+                        </div>
+                        <div class="colinput00"> 
+                        <select id="idcategoria" name="idcategoria" onchange="validarSwitch()">
+                            <option>Seleccionar</option>
+                            <option value="1">DISPOSITIVO MÓVIL</option>
+                            <option value="2">CÁMARA</option>
+                            <option value="3">LAPTOP</option>
+                        </select>
+                            <div class="colParrafo">
+                            <p id="categoria"></p>
+                            </div>
+                        </div>
+
+
+                   <div class="fila">
+                        <div class="collabel">
+                            <lable >Nombre del dispositivo </lable>
+                        </div>
+                        <div class="colinput">
+                            <input type="text" name="nomDisp" id="nomDisp" placeholder="Nombre" required
+                            onchange="validadNombre()">
+                        </div>
+                            <div class="colParrafo">
+                               <p id="nomDispositivo"></p>
+                            </div>
+                    </div>
+
+
+
+                    <div class="fila">
+                        <div class="collabel">
+                           <lable>Descripci&oacute;n </lable>
+                        </div>
+                        <div class="colinput">
+                            <textarea name="desDisp" id="desDisp" cols="30" rows="10" placeholder="Equipo tipo"
+                            onchange=" validarCampos()"></textarea>    
+                        </div>
+                        <div class="colParrafo">
+                            <p id="descripcion"></p>
+                        </div>
+                   </div>
+
+
+                   <div class="fila">
+                        <div class="collabel">            
+                           <lable>IP asignada </lable>
+                        </div>
+                        <div class="colinput">
+                           <input type="text" name="ipDisp" id="ipDisp" placeholder=" 127.0.0.0" pattern="[1-9]{3}.[0-9]{0,3}.[0-9]{0,3}.[0-9]{0,3}" required
+                           onchange="validadIP()">
+                        </div>
+                        <div class="colParrafo">
+                            <p id="dirIP"></p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="fila">
+                        <div class="collabel">
+                            <lable>N&uacute;mero de serie </lable>
+                        </div>
+                        <div class="colinput">
+                            <input type="text" name="numSerieDisp" id="numSerieDisp" placeholder="ABCDEF00" required minlength="5"  maxlength="12"
+                            onchange="validadNoSerie()">
+                        </div>
+                        <div class="colParrafo">
+                            <p id="noSerie"></p>
+                        </div>
+                    </div>
+
+
+
+                    <div>
+                        <div class="fila">
+                            <div class="collabel">
+                               <lable>Estado </lable>
+                            </div>   
+                        <div class="colinput00">
+                            <select type="text" name="estadoDisp" id="estadoDisp" onchange="validadEstado()">
+                                <option value="1">Activo</option>
+                                <option value="2">Inactivo</option>
+                            </select>
+                            <div class="colParrafo">
+                                <p id="estado"></p>
+                            </div>
+                        </div>
+                        <div class="contbotones">
+                            <br>
+                            <br>
+                            <br>
+                            <input type="submit" value="Insertar" >
+                            <input type="reset" value="Cancelar">
+                        </div> 
+                </form>
+                <p id="respuesta"></p>
+            </section>
+        </div>
+
+    </div>
+        <div class="conttabla">
+            <br>
+                <table>
+                    <tr>
+                    <th>Clave</th><!--filaas-->
+                    <th>Categor&iacute;a</th>
+                    <th>Descripci&oacute;n</th>
+                    <th>IP asignada</th>
+                    <th>No.serie</th>
+                    <th>Estado</th>
+                    </tr>
+                    <tr>
+                    <td>1</td>
+                    <td>Dispositivos m&oacute;viles</td>
+                    <td>Samsung s9,memoria de 500 GB</td>
+                    <td>192.168.25.04</td>
+                    <td>F0:54:FF:D1:25</td>
+                    <td>Activo</td>
+                    </tr>
+                    <tr>
+                    <td>2</td>
+                    <td>C&aacute;mara</td>
+                    <td>Samsum s12</td>
+                    <td>-------</td>
+                    <td>-------</td>
+                    <td>Activo</td>
+                    </tr>
+                </table>
+            </div>
+       </center>
+       </body>
+       </html>

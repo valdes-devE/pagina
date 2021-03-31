@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viwerport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../css/estilos.css">
+     
+        <title>¿En qu&eacute; te podemos ayudar?</title>
+    </head>
+    <body style="background: linear-gradient(#0340a1 30%,#032150 70%);">
+        <img src="../Imagenes/descarga000.png" style="width: 160px; height: 200px; border-radius: 4px;
+         margin-left: 1090px; margin-top: 190px;">
+        <div class="agrupar2">
+            <div class="cotainercont">
+                <form>            
+                    <h2 class="title">¿En qu&eacute; te podemos ayudar?</h2>
+            <h5 class="subtitle">Llamanos al (+34) 622 035 910</h5>
+
+            <br>
+           <div class="fila">
+               <div class="collabel1">
+                    <label>Explica tu problema*</label>
+               </div>
+            <div class="colinput1">
+                <textarea type="text" name="Prob" id="Prob" required placeholder="Escribe aqui"></textarea>
+        </div>
+    </div>
+    <div class="fila">
+        <div class="collabel1">
+            <label>Nombre *</label>
+        </div>
+        <div class="colinput1">
+            <input type="text" name="Nom" id="Nom" required minlength="3" maxlength="30" pattern="[A-Za-z]+" placeholder="Nombre">
+        </div>
+    </div>
+    <div class="fila">
+        <div class="collabel1">
+            <label>E-mail *</label>
+        </div>
+        <div class="colinput1">
+            <input type="email" name="Email" id="Email" required placeholder="xxxxxx@gmail.com" pattern="[a-z0-9]+@[a-z.-]+\.[a-z]{2,}">
+        </div>
+        <div class="colParrafo">
+            <p id="email"></p>
+        </div>
+    </div>
+    <div class="fila">
+        <div class="collabel1">
+            <label>Tel&eacute;fono *</label>
+        </div>
+        <div class="colinput1">
+            <input type="tel" name="Tel" id="Tel" required pattern="\+[0-9]{0,4} [0-9]{0-1} [0-9]{4} [0-9]{4}" placeholder="+52 1 000 000 0000">
+        </div>
+        <div class="colParrafo">
+            <p id="tel"></p>
+        </div>
+    </div>
+    <tr>
+        <br>
+        <br>
+        <input type="checkbox" name="politica de privacidad" required>
+        <th> He leido y acepto la política de privacidad</th>
+    </tr>
+    <div class="contBoton">
+        <input type="submit" value="Enviar" onClick="rclave()">
+
+    </div>
+</form>
+
+       </div>
+       </div>
+    </body>
+</html>

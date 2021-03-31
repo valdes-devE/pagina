@@ -1,0 +1,689 @@
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+header,section,footer,aside,nav,article,hgroup{
+    display: contents;
+}
+div{
+    width: 100%;
+    height: 100%;
+}
+    .cont{
+        float: center;
+         height: 320px;
+         width: 1100px;
+        background-image: url(/vistas/imagenes/tabla.jpg);
+     margin-left: .15em;
+     box-sizing: border-box
+
+}
+.banner{
+    float: center;
+     height: 320px;
+     width: 1100px;
+    background-image: url(/vistas/imagenes/uvas.jpg);
+ margin-left: .15em;
+ box-sizing: border-box;
+}
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+    } 
+    nav li{
+    display:inline-block;
+    width: 12%;
+    height: 40px;
+    padding:5px 8px;
+    background-color:#000000;
+    border:1px solid #beb8af;
+    text-align:center;
+    color:#fafbfc;
+    }
+    nav li:hover{
+    background-color:#beb8af;
+    color:#000000;
+    }
+
+.con1{
+    background-color: #B6B5BD;
+    width: 1000px;
+    height: 180px;
+    margin: 50px;
+    display: inline-block;
+   
+}
+.texto{
+    font-size: 15px;
+    text-align: justify;
+}
+.pedir{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.cont10{
+    background-color: #B6B5BD;
+    width: 1000px;
+    height: 800px;
+    margin: 50px;
+    display: inline-block;
+  }
+  .cont11{
+    float: left;
+    background-image: url(../vistas/imagenes/naranjas.jpg);
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+  .cont12{
+    float: left;
+    background-image: url(../vistas/imagenes/trigo.jpg);
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    margin-right: 20px;
+   
+  }
+  .cont13{
+    float: left;
+    background-image: url(../vistas/imagenes/mermelada.jpg);
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    margin-right: 20px;
+
+   
+  }
+  .cont14{
+    float: left;
+    background-image: url(../vistas/imagenes/ensalada.jpg);
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+   
+   
+  }
+  .cont15{
+    float: left;
+    background-image: url(../vistas/imagenes/helado.jpg);
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    margin-right: 20px;
+   
+   
+  }
+  .cont16{
+    float: left;
+    background-image: url(../vistas/imagenes/fruit-3661159_1920.jpg);
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    margin-right: 20px;
+   
+   
+  }
+  .con2{
+    background-color: #B6B5BD;
+    width: 1000px;
+    height: 180px;
+    margin: 50px;
+    display: inline-block;
+  }
+  .pie{
+    height: 60px;
+    width: 1050px;
+    background: #a5a39f;
+    padding: 40 px;
+   clear: both;
+   margin-top: 40px;
+    margin-right: 20px;
+}
+/**************Dispositivos******************/
+.agrupar{
+    width: 96%;
+    margin: 15px auto;
+    text-align: left;
+    
+    
+}
+.cotainerform{
+    border-radius: 5px;
+    background-color: #8B8B8B;
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    margin-left: 12%;
+}
+.containersec{
+    height: 100%;    
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    margin: 20px;
+    margin-top: 50px;
+}
+.contaside{
+    background-image:url(../vistas/imagenes/pexels-karolina-grabowska-4195512.jpg);
+    float: center;
+    width:1090px;
+     height:400px;
+    padding: 20px;
+    margin: 20px;
+    height: 100%;
+    margin-top: 300px;
+}
+.contbotones{
+    margin: 20px;
+    text-align: center;
+}
+.fila:after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.collabel{
+    float: center;
+    width: 25%;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.colinput{
+    float: center;
+    width: 95%;
+    margin-top: 5px;
+}
+.colinput00{
+    float: left;
+    width: 97%;
+    margin-top: 5px;
+    margin-left: 5px;
+    
+}
+.colinput01{
+    float: left;
+    width: 25%;
+    margin-top: 5px;
+    margin-left: 20px;
+    
+}
+.colinput02{
+    float: left;
+    width: 25%;
+    margin-top: 5px;
+    margin-left: 20px;
+    
+}
+input[type="text"],input[type="number"],select,textarea,option{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label{
+    padding: 12px,12px,12px,0;
+    display: inline-block;
+    font:bold 16px verdana,arial;
+}
+
+input[type=submit]{
+    background-color: #989ba1;
+    border-radius: 1px;
+    display: inline-block;
+    font:12px verdana,arial;
+    text-align:center;
+    padding: 15px 32 px;
+    font-size: 12px;
+    width: 90px;
+    height: 35px;
+
+}
+input[type=reset]{
+    background-color: #989ba1 ;
+    border-radius: 2px;
+    display: inline-block;
+    font:20px verdana,arial;
+    text-align:center;
+    padding: 20px 35 px;
+    font-size: 15px;
+    width: 90px;
+    height: 45px;
+
+}
+#principal{
+    display:block;
+    width:950px;
+    height: 70;
+    margin:auto;
+    margin-top: -55px;
+    padding: 45px;
+    text-align:center;
+    border:1px;
+
+}
+
+
+
+
+li a:hover:not(.active){
+    background-color: #5e5f61;
+}
+.active{
+    background-color: #4caf50;
+
+}
+article{
+    background: #cccccc;
+    border: 1px solid #999999;
+    padding: 25px;
+    margin-bottom: 15px;
+    width: 90%;
+    font: 18px century;
+    text-align: justify;
+
+}
+h3{
+    text-align: center;
+    font: 30px century;
+    color: #a31919;
+}
+
+#pie{
+    padding: 20px;
+    border-top: 5px solid #999999;
+    clear: both
+}
+.conttabla{
+    width: 75%;
+    margin: auto;
+    margin-left: 11%;
+}
+.table{
+    width:100%;
+    border: 3px none;
+    border-spacing: 0;
+    border-radius: 2px;
+
+}
+th,td{
+    text-align: left;
+    padding: 16px;
+    font:20px verdana italic;
+    color: #ffffff;
+    
+   
+}
+tr:nth-child(even){
+    background-color: #5a5c5d;
+
+}
+
+.colParrafo{
+    text-align: center;
+    color: #fafbfc;
+}
+
+
+/**************Contacto******************/
+.agrupar2{
+    width: 66%;
+    margin: 10px auto;
+    float: center;
+}
+.title{
+    text-align: center;
+    font-style: inherit;
+    color: #0000;
+}
+.subtitle{
+    text-align: center;
+    font: bold 12px arial;
+}
+.cotainercont{
+    border-radius: 10px;
+    background-color: #aac5e967;
+    padding: 50px;
+    width: 66%;
+    margin: 70px;
+    margin-top: -350px;
+}
+.contaSide{
+    background-color: #e5e5e5;
+    float: left;
+    width: 25%;
+    height: 200%;
+    padding: 20px 20px;
+    margin: 20px 20px;
+    height: 100%;
+}
+input [type="text"],input[type="tel"],input[type="email"],textarea{
+    width: 100%;
+    padding: 9px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+label{
+    padding: 10px,10px,10px,0;
+    display: inline-block;
+    font:bold 12px verdana;
+}
+input[type="submit"]{
+    width: 70px;
+    height: 45px;
+    background-color: #4c4e53 ;
+    border-radius: 2px;
+    display: inline-block;
+    font:20px arial;
+    text-align:center;
+    padding: 20px 35 px;
+
+}
+.collabel1{
+    float: left;
+    width: 25%;
+    margin-top: 15px;
+}
+.colinput1{
+    float: center;
+    width: 90%;
+    margin-top: 20px;
+}
+.contBoton{
+    margin: 5px;
+    text-align: center;
+}
+.img03{
+    width: 200px;
+    height: 300px;
+    margin-left: -120px;
+    margin-top: -700px;
+    float: left;
+}
+
+/*****************Quienes somos*********************/
+
+
+
+.col-100{
+    height: 200px;
+    position: relative;
+    top:-150px;
+    background-color:#ffffff;
+    margin:10px;
+    float:left;
+    width:91%;
+}
+.col-Izq{
+    float:left;
+    width:40%;
+    margin-top: 5px;
+    margin-left:20px;
+    margin-right: 20px;;
+}
+.centrar{
+    margin-left:51px;
+    margin-right:50px;
+}
+
+.contenido{
+    width:1199px;
+    height: 100%;
+    background-color: #cccccc;
+    margin: 5px;
+    float:left;
+    margin-top: -200px;
+}
+.agruparQS{
+    width: 96px;
+    height: 730px;
+    margin-left: 18px;
+    margin-top: 65px;
+    
+}
+.agruparQS1{
+    width: 96px;
+    margin: 5%;
+}
+.contAQS1{
+    width: 10px;
+    margin-left: -5px;
+    padding: 0px;
+    background: #a8a8a8;
+    text-align: center;
+}
+.principal1{
+    width:1179px;
+    height: 1200px;
+    background: #75787a;
+
+
+}
+.agruparQS2{
+    width: 96%;
+    margin: 20%;
+}
+
+.contQS{
+    padding: 0px;
+    width: 96%;
+    margin-left: 10px;
+    margin-top: -620px;
+}
+.cuadro1ArriG{
+    width:1139px;
+    height: 325px;
+    background: #919292;
+    margin-left: 15px;
+}
+.fuenteH3{
+    font: 30px century;
+    color: white;
+    text-align: justify;
+
+
+}
+.cuadro1Izq1{
+    width: 880px;
+    height: 280px;
+    background: #b8b8b8;
+    margin-top: -280px;
+    margin-left: 15px;
+}
+.context2{
+    width: 800px;
+    padding: 50px;  
+    margin-left: 0px;
+    text-align: center;
+
+
+
+}
+.cuadroIzq2{
+    width: 880px;
+    height: 280px;
+    background: #eaebec;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.cuadroIzq3{
+    width: 880px;
+    height: 280px;
+    background: #b8b8b8;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+.context3{
+    width: 800px;
+    padding: 90px;
+    margin-left: -45px;
+    text-align: center;
+
+}
+h4{
+    text-align: center;
+}
+.context{
+    width: 800px;
+    padding: 70px;
+    margin-top: 30px;
+    margin-left: 290px;  
+    text-align: left;
+}
+/*****************************Registrarse******************************/
+.agrupar3{
+    width: 96%;
+    margin: 60px;
+
+    
+}
+.collabel2{
+    float: left;
+    width: 70%;
+    margin-top: 15px;
+}
+.colinput2{
+    float: center;
+    width: 40%;
+    margin-top: 20px;
+}
+input [type="text"],input[type="date"],input[type="email"],input[type="password"],textarea{
+    width: 100%;
+    padding: 9px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+.botonReg{
+    margin: -130px;
+    margin-inline-end: auto;
+    margin-top: -40px;
+    font: bold verdana;
+    text-align: right;
+}
+input[type=submit]{
+    background-color: #989ba1 ;
+    border-radius: 2px;
+    display: inline-block;
+    font:20px arial;
+    text-align:center;
+    padding: 20px 35 px;
+    font-size: 15px;
+}
+.cot{
+
+  margin: 0 auto;
+  padding: 1em;
+ background-color: #d3d3d3;
+  border-radius: 1em;
+  width:566px;
+    height: 750px;
+       
+}
+
+table{
+    width:100%;
+    border: 1px solid #897379;
+    border-spacing: 0;
+}
+.fuenteH2{
+    text-align: center;
+    color: #0e1a3a;
+    margin-top: 70px;
+}
+/*****************************UUSARIOS******************************/
+
+.contava{
+    float: center;
+    background-color: #989ba1;
+    height: 200px;
+    width: 900px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.contava1{
+    float: center;
+    background-color: #dee3ec;
+    height: 200px;
+    width: 900px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.contava2{
+    float: center;
+    background-color: #989ba1;
+    height: 200px;
+    width: 900px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.contava3{
+    float: center;
+    background-color: #dee3ec;
+    height: 200px;
+    width: 900px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.avatar1{
+    float: left;
+    background-image: url(../imagenes/Monse.png);
+    height: 200px;
+    width: 210px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.avatar2{
+    float: left;
+    background-image: url(../imagenes/Bryan.png);
+    height: 200px;
+    width: 210px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.avatar3{
+    float: left;
+    background-image: url(../imagenes/yes.png);
+    height: 200px;
+    width: 210px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.avatar4{
+    float: left;
+    background-image: url(../imagenes/Ana.PNG);
+    height: 200px;
+    width: 210px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.colinput001{
+    float: center;
+    width: 90%;
+    margin: 10px;
+    margin-top: 5px;
+}
+.collabel001{
+    float: center;
+    width: 25%;
+    margin-top: 15px;
+    font-weight: bold;
+
+}
